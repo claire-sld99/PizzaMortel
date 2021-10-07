@@ -1,7 +1,9 @@
 footer{
     background-color: #702722;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 @font-face{
@@ -13,4 +15,14 @@ h4{
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 3px #702722;
+}
+
+footer section a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer section a:hover{
+    color: #F25449;
 }
