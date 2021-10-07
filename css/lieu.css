@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'Blood\ &\ Horror'; src: url('../Blood\ &\ Horror.otf'); 
+}
+
+h1{
+    font-family: 'Blood\ &\ Horror';
+    text-align: center;
+    font-size: 65px  !important;
+    color: #F01100;
+    text-shadow: 1px 1px 3px #702722;
+}
+
+#carte{
+    margin: 15px auto;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
