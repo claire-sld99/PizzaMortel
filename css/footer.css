@@ -1,0 +1,16 @@
+footer{
+    background-color: #702722;
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face{
+    font-family: 'Blood\ &\ Horror'; src: url('../Blood\ &\ Horror.otf'); 
+}
+
+h4{
+    font-family: 'Blood\ &\ Horror';
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 3px #702722;
+}

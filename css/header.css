@@ -1,0 +1,8 @@
+.navbar .navbar-brand img{
+    width: 10%;
+}
+
+.navbar ul li a:hover{
+    color: #F01100 !important;
+}
+
