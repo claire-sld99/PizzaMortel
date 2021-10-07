@@ -43,9 +43,59 @@
       </nav>
 
 <!--CORPS DE LA PAGE-->
-    <h1>Pizza Mortel &#128128;</h1>   
-    
-    
+    <h1>Pizza Mortel &#128128;</h1> 
+    <div class="container">  
+      <form action="./commande.html" method="POST">
+        <div class="mb-3">
+          <label for="exampleInputPrenom" class="form-label">Prenom :</label>
+          <input type="text" class="form-control" id="exampleInputPrenom">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputNom" class="form-label">Nom :</label>
+          <input type="text" class="form-control" id="exampleInputNom">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputRue" class="form-label">Rue :</label>
+          <input type="text" class="form-control" id="exampleInputRue">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputCP" class="form-label">Code postal :</label>
+          <input type="text" class="form-control" id="exampleInputCP">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputVille" class="form-label">Ville :</label>
+          <input type="text" class="form-control" id="exampleInputVille">
+        </div>
+        <h5>Choisir votre / vos pizza(s)</h5>
+        <section id="checkbox-choix">
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Pizza Momie (mini)</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck2">Pizza Cercueil (mini)</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+            <label class="form-check-label" for="exampleCheck3">Pizza Araignée (mini)</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck4">
+            <label class="form-check-label" for="exampleCheck4">Pizza Boo (grande)</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck5">
+            <label class="form-check-label" for="exampleCheck5">Pizza Monstre (grande)</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck6">
+            <label class="form-check-label" for="exampleCheck6">Pizza Araignée (grande)</label>
+          </div>
+        </section>
+        <button type="submit" class="btn btn-danger mb-3">Envoyer la commande</button>
+      </form>
+  </div>
 <!--FOOTER-->
 <footer>
     <section>

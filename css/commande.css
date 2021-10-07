@@ -14,3 +14,9 @@ h1{
     color: #F01100;
     text-shadow: 1px 1px 3px #702722;
 }
+
+
+#checkbox-choix{
+    display: flex;
+    justify-content: space-around;
+}
